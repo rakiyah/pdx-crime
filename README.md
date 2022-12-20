@@ -15,7 +15,7 @@ The aim of this project is to collect and visualize Portland, Oregon crime data 
 - Crime data is collected from the Portland Police Bureau's [Open Data](https://public.tableau.com/app/profile/portlandpolicebureau/viz/New_Monthly_Neighborhood/MonthlyOffenseTotals)
 - Geospatial data for Portland neighborhoods is collected from [Portland Maps](https://gis-pdx.opendata.arcgis.com/datasets/PDX::neighborhoods-regions/explore?location=45.540245%2C-122.627185%2C10.98)
 - Python and pandas are used to clean, reformat and concatenate data
-- Transformed data and geospatial data are uploaded to Tableau to create interactive dashboard
+- Transformed data and geospatial data are uploaded to Tableau to create an interactive dashboard
 
 
 ## Interactive Dashboard:
@@ -33,3 +33,5 @@ The frequency map is an outline of all Portland neighborhoods using boundaries f
 
 ### Month Filter
 The **Offense Count by Month** bar chart displays the offense count for all months included in the year filter. The bar chart can also be used to filter results by selecting one or more months to view the offense and regional breakdown for that month. 
+
+**Note:** Different filters can be selected to further refine data. 
